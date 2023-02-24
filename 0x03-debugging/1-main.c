@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - causes an infinite loop
@@ -17,7 +17,7 @@ int main(void)
 	/*{*/
 	/*     putchar(i);*/
 	/*}*/
-	printf("infinite loop avoided! \\o/\n");
+	printf("infinite loop avoided! \\0/\n");
 	
-	return (o);
+	return (0);
 }
